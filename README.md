@@ -16,7 +16,7 @@
 </div>
 
 <p align="center">
-  <img src="images/hero.png" alt="The Kelcite window with three lattice bodies from the demo selected: a clay icosahedron filled with struts, an icosahedron mesh with a shell along its dual edges, and a cylinder with a gyroid sheet, each under its note flag, with the Objects and Info panels at the left and the tool palette above the scene" width="100%">
+  <img src="images/hero.png" alt="The Kelcite window with three lattice bodies from the demo selected: a clay icosahedron filled with struts, an icosahedron mesh with a shell along its dual edges, and a cylinder with a gyroid sheet, with the Objects and Info panels at the left and the tool palette above the scene" width="100%">
 </p>
 
 ## Philosophy
