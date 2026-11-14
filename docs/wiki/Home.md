@@ -2,7 +2,7 @@
 
 Welcome to the [Kelcite](https://kelcite.app) wiki. Kelcite is a 3D modeling app for Makers, focused on 3D printing, that runs entirely in the browser.
 
-Development happens in a private repository; this repository tracks the deployed app, feature requests and bug reports. Report a bug or request a feature in the [issue tracker](https://github.com/kelnishi/kelcite-app/issues), and see the [release notes](https://kelcite.app/changelog) for what changed in each version. You can support the project through [sponsorship](https://github.com/sponsors/kelnishi).
+Development happens in a private repository; this repository tracks the deployed app, feature requests and bug reports. Report a bug or request a feature in the [issue tracker](https://github.com/kelnishi/kelcite-app/issues), and see the [changelog](Changelog) for what changed in each version. You can support the project through [sponsorship](https://github.com/sponsors/kelnishi).
 
 ## New here
 
