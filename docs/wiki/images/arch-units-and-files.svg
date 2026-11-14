@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 470" width="900" height="470" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="t d">
+<title id="t">One length from a file to the screen and back out</title>
+<desc id="d">A 3MF file in inches holds a length of 2. Import tags the model with the inch measure and keeps the number 2. The Inspector converts it to the display unit, millimeters, and reads 50.8 mm without changing the stored number. Exporting to STL multiplies the measure out into the unit for files without one, millimeters, and writes 50.8. Commit instead multiplies the stored number into the measure the model would inherit, the scene unit, millimeters, so the model then stores 50.8 and keeps its physical size.</desc>
+<style>
+svg{--bg:#ffffff;--ink:#1b1f2e;--muted:#4b5368;--edge:#5d6680;--n-fill:#f3f5f9;--n-stroke:#8d97ad;--b-fill:#e8f2fc;--b-stroke:#387dd1;--v-fill:#f1ebfb;--v-stroke:#6e49be;--y-fill:#e6ebf6;--y-stroke:#1f3666}
+@media (prefers-color-scheme: dark){svg{--bg:#0d1117;--ink:#e8ecf4;--muted:#aeb7c8;--edge:#9aa6bd;--n-fill:#161b26;--n-stroke:#56617a;--b-fill:#10263d;--b-stroke:#4dafe7;--v-fill:#211a3a;--v-stroke:#936ad5;--y-fill:#151d33;--y-stroke:#76d6f6}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;fill:var(--ink)}
+.m{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:15px;font-weight:600}
+.bg{fill:var(--bg)}
+.h{font-size:15.5px;font-weight:600}
+.s{font-size:13.5px;fill:var(--muted)}
+.n{fill:var(--n-fill);stroke:var(--n-stroke);stroke-width:1.5}
+.b{fill:var(--b-fill);stroke:var(--b-stroke);stroke-width:1.5}
+.v{fill:var(--v-fill);stroke:var(--v-stroke);stroke-width:1.5}
+.y{fill:var(--y-fill);stroke:var(--y-stroke);stroke-width:1.5}
+.e{fill:none;stroke:var(--edge);stroke-width:1.75}
+.ah{fill:var(--edge)}
+.l{font-size:13.5px;fill:var(--muted)}
+.lb{font-size:13.5px;font-weight:600}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0 0L10 5L0 10z"/></marker>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="470" rx="12"/>
+
+<rect class="n" x="20" y="60" width="210" height="100" rx="10"/>
+<text class="h" x="125" y="90" text-anchor="middle">3MF file</text>
+<text class="m" x="125" y="117" text-anchor="middle">2</text>
+<text class="s" x="125" y="141" text-anchor="middle">unit written: inch</text>
+
+<rect class="b" x="320" y="60" width="240" height="100" rx="10"/>
+<text class="h" x="440" y="90" text-anchor="middle">Model in the scene</text>
+<text class="m" x="440" y="117" text-anchor="middle">2</text>
+<text class="s" x="440" y="141" text-anchor="middle">measure: inch</text>
+
+<rect class="y" x="670" y="60" width="210" height="100" rx="10"/>
+<text class="h" x="775" y="90" text-anchor="middle">Inspector readout</text>
+<text class="m" x="775" y="117" text-anchor="middle">50.8 mm</text>
+<text class="s" x="775" y="141" text-anchor="middle">display unit: mm</text>
+
+<path class="e" d="M232 110H316" marker-end="url(#a)"/>
+<text class="lb" x="274" y="100" text-anchor="middle">import</text>
+<text class="l" x="274" y="132" text-anchor="middle">keeps 2</text>
+<path class="e" d="M562 110H666" marker-end="url(#a)"/>
+<text class="lb" x="614" y="100" text-anchor="middle">display</text>
+<text class="l" x="614" y="132" text-anchor="middle">reading only</text>
+
+<rect class="n" x="20" y="300" width="210" height="100" rx="10"/>
+<text class="h" x="125" y="330" text-anchor="middle">Scene unit</text>
+<text class="m" x="125" y="357" text-anchor="middle">mm</text>
+<text class="s" x="125" y="381" text-anchor="middle">set in Preferences</text>
+
+<rect class="b" x="320" y="300" width="240" height="100" rx="10"/>
+<text class="h" x="440" y="330" text-anchor="middle">Model after Commit</text>
+<text class="m" x="440" y="357" text-anchor="middle">50.8</text>
+<text class="s" x="440" y="381" text-anchor="middle">measure: inherited, mm</text>
+
+<rect class="v" x="670" y="300" width="210" height="100" rx="10"/>
+<text class="h" x="775" y="330" text-anchor="middle">STL export</text>
+<text class="m" x="775" y="357" text-anchor="middle">50.8</text>
+<text class="s" x="775" y="381" text-anchor="middle">unit for unitless files: mm</text>
+
+<path class="e" d="M440 162V296" marker-end="url(#a)"/>
+<text class="lb" x="452" y="222">Commit</text>
+<text class="l" x="452" y="242">2 × 25.4</text>
+<path class="e" d="M540 162L708 296" marker-end="url(#a)"/>
+<text class="lb" x="654" y="214">export</text>
+<text class="l" x="654" y="234">measure multiplied out</text>
+<path class="e" d="M232 350H316" marker-end="url(#a)"/>
+<text class="l" x="274" y="340" text-anchor="middle">inherits</text>
+
+<text class="s" x="20" y="440">Choosing a unit keeps the numbers and changes the size; Commit keeps the size and changes the numbers.</text>
+</svg>

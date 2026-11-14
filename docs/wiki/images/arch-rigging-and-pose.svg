@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 420" width="900" height="420" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="t d">
+<title id="t">From a figure in rest pose to a printable posed mesh</title>
+<desc id="d">A figure starts in a neutral rest pose. The Rig tool fits a skeleton, automatically, with the humanoid fit, or by hand. Weights record which bones move each vertex, solved in a worker as body, clothing or rigid pieces. The Pose tool turns bones and the Timeline plays and keys clips; the mesh keeps its rest-pose vertices and only what you see changes. A check in a worker shows where the pose makes the figure pass through itself. The Pose step of Bake then writes each skinned mesh in its pose, and closed meshes can be unioned into one solid.</desc>
+<style>
+svg{--bg:#ffffff;--ink:#1b1f2e;--muted:#4b5368;--edge:#5d6680;--n-fill:#f3f5f9;--n-stroke:#8d97ad;--b-fill:#e8f2fc;--b-stroke:#387dd1;--v-fill:#f1ebfb;--v-stroke:#6e49be;--y-fill:#e6ebf6;--y-stroke:#1f3666}
+@media (prefers-color-scheme: dark){svg{--bg:#0d1117;--ink:#e8ecf4;--muted:#aeb7c8;--edge:#9aa6bd;--n-fill:#161b26;--n-stroke:#56617a;--b-fill:#10263d;--b-stroke:#4dafe7;--v-fill:#211a3a;--v-stroke:#936ad5;--y-fill:#151d33;--y-stroke:#76d6f6}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;fill:var(--ink)}
+.bg{fill:var(--bg)}
+.h{font-size:15.5px;font-weight:600}
+.s{font-size:13.5px;fill:var(--muted)}
+.lh{font-size:13.5px;font-weight:600;fill:var(--muted);letter-spacing:.04em}
+.n{fill:var(--n-fill);stroke:var(--n-stroke);stroke-width:1.5}
+.b{fill:var(--b-fill);stroke:var(--b-stroke);stroke-width:1.5}
+.v{fill:var(--v-fill);stroke:var(--v-stroke);stroke-width:1.5}
+.y{fill:var(--y-fill);stroke:var(--y-stroke);stroke-width:2}
+.e{fill:none;stroke:var(--edge);stroke-width:1.75}
+.ah{fill:var(--edge)}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0 0L10 5L0 10z"/></marker>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="420" rx="12"/>
+
+<text class="lh" x="20" y="38">BUILD THE RIG</text>
+<rect class="n" x="20" y="54" width="250" height="100" rx="10"/>
+<text class="h" x="145" y="86" text-anchor="middle">Figure in rest pose</text>
+<text class="s" x="145" y="110" text-anchor="middle">a neutral stance,</text>
+<text class="s" x="145" y="129" text-anchor="middle">such as an A-pose or T-pose</text>
+
+<rect class="b" x="325" y="54" width="250" height="100" rx="10"/>
+<text class="h" x="450" y="86" text-anchor="middle">Rig</text>
+<text class="s" x="450" y="110" text-anchor="middle">fits a skeleton: automatic,</text>
+<text class="s" x="450" y="129" text-anchor="middle">humanoid, or by hand</text>
+
+<rect class="b" x="630" y="54" width="250" height="100" rx="10"/>
+<text class="h" x="755" y="86" text-anchor="middle">Weights</text>
+<text class="s" x="755" y="110" text-anchor="middle">which bones move each vertex;</text>
+<text class="s" x="755" y="129" text-anchor="middle">body, clothing or rigid</text>
+
+<text class="lh" x="20" y="232">POSE AND BAKE</text>
+<rect class="v" x="20" y="248" width="250" height="100" rx="10"/>
+<text class="h" x="145" y="280" text-anchor="middle">Pose and Timeline</text>
+<text class="s" x="145" y="304" text-anchor="middle">turn bones; play and key clips</text>
+<text class="s" x="145" y="323" text-anchor="middle">the view changes, not the mesh</text>
+
+<rect class="n" x="325" y="248" width="250" height="100" rx="10"/>
+<text class="h" x="450" y="280" text-anchor="middle">Self-intersection check</text>
+<text class="s" x="450" y="304" text-anchor="middle">shows where the figure</text>
+<text class="s" x="450" y="323" text-anchor="middle">passes through itself</text>
+
+<rect class="y" x="630" y="248" width="250" height="100" rx="10"/>
+<text class="h" x="755" y="280" text-anchor="middle">Bake, Pose step</text>
+<text class="s" x="755" y="304" text-anchor="middle">each skinned mesh as posed;</text>
+<text class="s" x="755" y="323" text-anchor="middle">closed meshes can union</text>
+
+<path class="e" d="M272 104H321" marker-end="url(#a)"/>
+<path class="e" d="M577 104H626" marker-end="url(#a)"/>
+<path class="e" d="M755 156V186H200V244" marker-end="url(#a)"/>
+<path class="e" d="M272 298H321" marker-end="url(#a)"/>
+<path class="e" d="M577 298H626" marker-end="url(#a)"/>
+
+<text class="s" x="20" y="392">Until Bake, a skinned mesh stores its rest-pose vertices, and tools that edit triangles are unavailable on it.</text>
+</svg>

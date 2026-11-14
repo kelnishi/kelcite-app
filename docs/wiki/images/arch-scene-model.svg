@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 500" width="900" height="500" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="t d">
+<title id="t">A node tree and one node's modifier stack</title>
+<desc id="d">Left, a scene tree: a group named Enclosure holds a mesh named Housing, a mesh named Port cutter and an SVG named Logo. Right, the modifiers on Housing, evaluated top to bottom. Housing refers to its geometry, which stays unchanged. A Difference modifier subtracts Port cutter, then a Decal modifier projects Logo onto the surface, and the result is drawn in the view. Bake writes that result as plain triangles. Port cutter and Logo stay in the scene as ordinary nodes that the modifiers read, so moving one updates the result.</desc>
+<style>
+svg{--bg:#ffffff;--ink:#1b1f2e;--muted:#4b5368;--edge:#5d6680;--lane:#f5f7fb;--lane-stroke:#d5dbe6;--n-fill:#ffffff;--n-stroke:#8d97ad;--b-fill:#e8f2fc;--b-stroke:#387dd1;--v-fill:#f1ebfb;--v-stroke:#6e49be;--y-fill:#e6ebf6;--y-stroke:#1f3666}
+@media (prefers-color-scheme: dark){svg{--bg:#0d1117;--ink:#e8ecf4;--muted:#aeb7c8;--edge:#9aa6bd;--lane:#131925;--lane-stroke:#2a3346;--n-fill:#0d1117;--n-stroke:#56617a;--b-fill:#10263d;--b-stroke:#4dafe7;--v-fill:#211a3a;--v-stroke:#936ad5;--y-fill:#151d33;--y-stroke:#76d6f6}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;fill:var(--ink)}
+.bg{fill:var(--bg)}
+.lane{fill:var(--lane);stroke:var(--lane-stroke);stroke-width:1}
+.lh{font-size:16px;font-weight:600}
+.h{font-size:15.5px;font-weight:600}
+.k{font-size:13.5px;fill:var(--muted)}
+.s{font-size:13.5px;fill:var(--muted)}
+.n{fill:var(--n-fill);stroke:var(--n-stroke);stroke-width:1.5}
+.sel{fill:var(--b-fill);stroke:var(--b-stroke);stroke-width:2.5}
+.b{fill:var(--b-fill);stroke:var(--b-stroke);stroke-width:1.5}
+.v{fill:var(--v-fill);stroke:var(--v-stroke);stroke-width:1.5}
+.y{fill:var(--y-fill);stroke:var(--y-stroke);stroke-width:2}
+.e{fill:none;stroke:var(--edge);stroke-width:1.75}
+.tree{fill:none;stroke:var(--n-stroke);stroke-width:1.5}
+.ref{fill:none;stroke:var(--edge);stroke-width:1.75;stroke-dasharray:6 5}
+.ah{fill:var(--edge)}
+.l{font-size:13.5px;fill:var(--muted)}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0 0L10 5L0 10z"/></marker>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="500" rx="12"/>
+<rect class="lane" x="20" y="20" width="340" height="460" rx="12"/>
+<rect class="lane" x="420" y="20" width="460" height="460" rx="12"/>
+<text class="lh" x="40" y="50">Scene tree</text>
+<text class="lh" x="440" y="50">Modifiers on Housing, top to bottom</text>
+
+<path class="tree" d="M60 124V354M60 194H80M60 274H80M60 354H80"/>
+<rect class="n" x="40" y="80" width="290" height="44" rx="8"/>
+<text class="h" x="56" y="108">Enclosure</text><text class="k" x="314" y="108" text-anchor="end">group</text>
+<rect class="sel" x="80" y="172" width="250" height="44" rx="8"/>
+<text class="h" x="96" y="200">Housing</text><text class="k" x="314" y="200" text-anchor="end">mesh</text>
+<rect class="n" x="80" y="252" width="250" height="44" rx="8"/>
+<text class="h" x="96" y="280">Port cutter</text><text class="k" x="314" y="280" text-anchor="end">mesh</text>
+<rect class="n" x="80" y="332" width="250" height="44" rx="8"/>
+<text class="h" x="96" y="360">Logo</text><text class="k" x="314" y="360" text-anchor="end">SVG</text>
+<text class="s" x="40" y="428">Dashed: a node a modifier reads.</text>
+<text class="s" x="40" y="448">It stays in the scene; moving it</text>
+<text class="s" x="40" y="468">updates the result.</text>
+
+<rect class="n" x="460" y="76" width="380" height="60" rx="10"/>
+<text class="h" x="650" y="102" text-anchor="middle">Geometry</text>
+<text class="s" x="650" y="123" text-anchor="middle">the original mesh, kept as it was</text>
+<rect class="v" x="460" y="168" width="380" height="60" rx="10"/>
+<text class="h" x="650" y="194" text-anchor="middle">1  Difference</text>
+<text class="s" x="650" y="215" text-anchor="middle">subtracts Port cutter</text>
+<rect class="v" x="460" y="260" width="380" height="60" rx="10"/>
+<text class="h" x="650" y="286" text-anchor="middle">2  Decal</text>
+<text class="s" x="650" y="307" text-anchor="middle">projects Logo onto the surface</text>
+<rect class="y" x="460" y="352" width="380" height="80" rx="10"/>
+<text class="h" x="650" y="380" text-anchor="middle">Result</text>
+<text class="s" x="650" y="401" text-anchor="middle">evaluated whenever it is needed;</text>
+<text class="s" x="650" y="420" text-anchor="middle">Bake writes it as plain triangles</text>
+
+<path class="e" d="M650 138V164" marker-end="url(#a)"/>
+<path class="e" d="M650 230V256" marker-end="url(#a)"/>
+<path class="e" d="M650 322V348" marker-end="url(#a)"/>
+
+<path class="e" d="M332 188L456 112" marker-end="url(#a)"/>
+<text class="l" x="372" y="140" text-anchor="middle">refers to</text>
+<path class="ref" d="M332 274L456 202" marker-end="url(#a)"/>
+<path class="ref" d="M332 354L456 292" marker-end="url(#a)"/>
+</svg>

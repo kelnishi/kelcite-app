@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="900" height="560" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="t d">
+<title id="t">Kelcite's layers and what stays on your machine</title>
+<desc id="d">Inside the browser on your machine: the interface reads the scene state and tools edit it; the viewport draws from the scene state; slow work goes to the geometry engine in web workers and comes back as scene edits; the scene state autosaves to browser storage and reopens from it. From outside, Kelcite's site supplies only the app and its updates. A document leaves the machine only when you save or export a file.</desc>
+<style>
+svg{--bg:#ffffff;--ink:#1b1f2e;--muted:#4b5368;--edge:#5d6680;--frame:#1f527e;--n-fill:#f3f5f9;--n-stroke:#8d97ad;--b-fill:#e8f2fc;--b-stroke:#387dd1;--v-fill:#f1ebfb;--v-stroke:#6e49be;--y-fill:#e6ebf6;--y-stroke:#1f3666}
+@media (prefers-color-scheme: dark){svg{--bg:#0d1117;--ink:#e8ecf4;--muted:#aeb7c8;--edge:#9aa6bd;--frame:#4dafe7;--n-fill:#161b26;--n-stroke:#56617a;--b-fill:#10263d;--b-stroke:#4dafe7;--v-fill:#211a3a;--v-stroke:#936ad5;--y-fill:#151d33;--y-stroke:#76d6f6}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;fill:var(--ink)}
+.bg{fill:var(--bg)}
+.h{font-size:16px;font-weight:600}
+.s{font-size:13.5px;fill:var(--muted)}
+.l{font-size:13.5px;fill:var(--muted)}
+.frame{fill:none;stroke:var(--frame);stroke-width:2;stroke-dasharray:8 6}
+.ft{font-size:15px;font-weight:600;fill:var(--frame)}
+.n{fill:var(--n-fill);stroke:var(--n-stroke);stroke-width:1.5}
+.b{fill:var(--b-fill);stroke:var(--b-stroke);stroke-width:1.5}
+.v{fill:var(--v-fill);stroke:var(--v-stroke);stroke-width:1.5}
+.y{fill:var(--y-fill);stroke:var(--y-stroke);stroke-width:1.5}
+.e{fill:none;stroke:var(--edge);stroke-width:1.75}
+.ah{fill:var(--edge)}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0 0L10 5L0 10z"/></marker>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="560" rx="12"/>
+<rect class="frame" x="20" y="60" width="690" height="480" rx="14"/>
+<text class="ft" x="40" y="92">Your browser, on your machine</text>
+
+<rect class="b" x="50" y="120" width="250" height="70" rx="10"/>
+<text class="h" x="175" y="150" text-anchor="middle">Interface</text>
+<text class="s" x="175" y="172" text-anchor="middle">panels, tools, inspector · main thread</text>
+
+<rect class="b" x="430" y="120" width="250" height="70" rx="10"/>
+<text class="h" x="555" y="150" text-anchor="middle">Viewport</text>
+<text class="s" x="555" y="172" text-anchor="middle">the 3D view · main thread and GPU</text>
+
+<rect class="b" x="240" y="255" width="250" height="70" rx="10"/>
+<text class="h" x="365" y="285" text-anchor="middle">Scene state</text>
+<text class="s" x="365" y="307" text-anchor="middle">the document, in memory</text>
+
+<rect class="v" x="50" y="390" width="250" height="70" rx="10"/>
+<text class="h" x="175" y="420" text-anchor="middle">Geometry engine</text>
+<text class="s" x="175" y="442" text-anchor="middle">web workers, mostly WebAssembly</text>
+
+<rect class="y" x="430" y="390" width="250" height="70" rx="10"/>
+<text class="h" x="555" y="420" text-anchor="middle">Browser storage</text>
+<text class="s" x="555" y="442" text-anchor="middle">documents, undo, preferences</text>
+
+<path class="e" d="M215 194L298 252" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="l" x="240" y="228" text-anchor="end">reads; tools edit</text>
+<path class="e" d="M432 252L515 194" marker-end="url(#a)"/>
+<text class="l" x="490" y="228">draws from</text>
+<path class="e" d="M298 328L215 387" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="l" x="222" y="350" text-anchor="end">slow work out,</text>
+<text class="l" x="222" y="368" text-anchor="end">results back as edits</text>
+<path class="e" d="M432 328L515 387" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="l" x="508" y="350">autosave,</text>
+<text class="l" x="508" y="368">reopen</text>
+
+<rect class="n" x="750" y="120" width="140" height="70" rx="10"/>
+<text class="h" x="820" y="150" text-anchor="middle">Kelcite's site</text>
+<text class="s" x="820" y="172" text-anchor="middle">app and updates</text>
+<path class="e" d="M748 155L714 155" marker-end="url(#a)"/>
+
+<rect class="n" x="750" y="390" width="140" height="70" rx="10"/>
+<text class="h" x="820" y="420" text-anchor="middle">A file you save</text>
+<text class="s" x="820" y="442" text-anchor="middle">GLB, STL, 3MF, OBJ</text>
+<path class="e" d="M492 290H820V386" marker-end="url(#a)"/>
+<text class="l" x="545" y="281">save or export</text>
+
+<text class="s" x="40" y="512">Documents stay inside this boundary until you save a file.</text>
+</svg>

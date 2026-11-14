@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" width="900" height="520" preserveAspectRatio="xMidYMid meet" role="img" aria-labelledby="t d">
+<title id="t">What Kelcite keeps in the browser and what crosses its edge</title>
+<desc id="d">Inside the browser profile, the open document autosaves to the documents database in IndexedDB and reopens from it. Preferences sit in local storage, and the asset library, the pasteboard and the distance-field cache sit in databases of their own. Requests come in from four places: Kelcite's site for the app, its updates, the demo and the version history; Kelcite or the publisher for an optional download you install; asset sources such as Poly Haven and Fontsource when you browse the library; and a SpaceMouse bridge running on your own machine. None of these requests carries a document. A document leaves the browser only as a file you save or export.</desc>
+<style>
+svg{--bg:#ffffff;--ink:#1b1f2e;--muted:#4b5368;--edge:#5d6680;--frame:#1f527e;--n-fill:#f3f5f9;--n-stroke:#8d97ad;--b-fill:#e8f2fc;--b-stroke:#387dd1;--v-fill:#f1ebfb;--v-stroke:#6e49be;--y-fill:#e6ebf6;--y-stroke:#1f3666}
+@media (prefers-color-scheme: dark){svg{--bg:#0d1117;--ink:#e8ecf4;--muted:#aeb7c8;--edge:#9aa6bd;--frame:#4dafe7;--n-fill:#161b26;--n-stroke:#56617a;--b-fill:#10263d;--b-stroke:#4dafe7;--v-fill:#211a3a;--v-stroke:#936ad5;--y-fill:#151d33;--y-stroke:#76d6f6}}
+text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif;fill:var(--ink)}
+.bg{fill:var(--bg)}
+.h{font-size:15.5px;font-weight:600}
+.s{font-size:13.5px;fill:var(--muted)}
+.lh{font-size:13.5px;font-weight:600;fill:var(--muted);letter-spacing:.04em}
+.frame{fill:none;stroke:var(--frame);stroke-width:2;stroke-dasharray:8 6}
+.ft{font-size:15px;font-weight:600;fill:var(--frame)}
+.n{fill:var(--n-fill);stroke:var(--n-stroke);stroke-width:1.5}
+.b{fill:var(--b-fill);stroke:var(--b-stroke);stroke-width:1.5}
+.v{fill:var(--v-fill);stroke:var(--v-stroke);stroke-width:1.5}
+.y{fill:var(--y-fill);stroke:var(--y-stroke);stroke-width:1.5}
+.e{fill:none;stroke:var(--edge);stroke-width:1.75}
+.ah{fill:var(--edge)}
+.l{font-size:13.5px;fill:var(--muted)}
+</style>
+<defs>
+<marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path class="ah" d="M0 0L10 5L0 10z"/></marker>
+</defs>
+<rect class="bg" x="0" y="0" width="900" height="520" rx="12"/>
+
+<text class="lh" x="20" y="40">FETCHED FROM OUTSIDE</text>
+<rect class="n" x="20" y="56" width="236" height="82" rx="10"/>
+<text class="h" x="138" y="84" text-anchor="middle">Kelcite's site</text>
+<text class="s" x="138" y="106" text-anchor="middle">the app and its updates,</text>
+<text class="s" x="138" y="125" text-anchor="middle">the demo, version history</text>
+<rect class="n" x="20" y="156" width="236" height="82" rx="10"/>
+<text class="h" x="138" y="184" text-anchor="middle">Optional downloads</text>
+<text class="s" x="138" y="206" text-anchor="middle">only when you install one,</text>
+<text class="s" x="138" y="225" text-anchor="middle">from Kelcite or the publisher</text>
+<rect class="n" x="20" y="256" width="236" height="82" rx="10"/>
+<text class="h" x="138" y="284" text-anchor="middle">Asset sources</text>
+<text class="s" x="138" y="306" text-anchor="middle">such as Poly Haven, Fontsource,</text>
+<text class="s" x="138" y="325" text-anchor="middle">when you browse the library</text>
+<rect class="n" x="20" y="356" width="236" height="82" rx="10"/>
+<text class="h" x="138" y="384" text-anchor="middle">SpaceMouse bridge</text>
+<text class="s" x="138" y="406" text-anchor="middle">a service on your own</text>
+<text class="s" x="138" y="425" text-anchor="middle">machine, when it runs</text>
+<path class="e" d="M258 97H296" marker-end="url(#a)"/>
+<path class="e" d="M258 197H296" marker-end="url(#a)"/>
+<path class="e" d="M258 297H296" marker-end="url(#a)"/>
+<path class="e" d="M258 397H296" marker-end="url(#a)"/>
+
+<rect class="frame" x="300" y="24" width="356" height="446" rx="14"/>
+<text class="ft" x="320" y="54">Your browser profile</text>
+
+<rect class="b" x="330" y="72" width="296" height="64" rx="10"/>
+<text class="h" x="478" y="99" text-anchor="middle">Open document</text>
+<text class="s" x="478" y="121" text-anchor="middle">in memory while you edit</text>
+
+<rect class="y" x="330" y="190" width="296" height="90" rx="10"/>
+<text class="h" x="478" y="217" text-anchor="middle">Documents (IndexedDB)</text>
+<text class="s" x="478" y="240" text-anchor="middle">index, session, undo history,</text>
+<text class="s" x="478" y="259" text-anchor="middle">geometry and images</text>
+
+<rect class="n" x="330" y="298" width="296" height="64" rx="10"/>
+<text class="h" x="478" y="325" text-anchor="middle">Preferences (local storage)</text>
+<text class="s" x="478" y="347" text-anchor="middle">units, keys, layout, camera</text>
+
+<rect class="n" x="330" y="378" width="296" height="82" rx="10"/>
+<text class="h" x="478" y="403" text-anchor="middle">Other local databases</text>
+<text class="s" x="478" y="425" text-anchor="middle">asset library, pasteboard,</text><text class="s" x="478" y="444" text-anchor="middle">distance-field cache</text>
+
+<path class="e" d="M478 139V186" marker-start="url(#a)" marker-end="url(#a)"/>
+<text class="l" x="490" y="168">autosave, reopen</text>
+
+<rect class="v" x="694" y="72" width="186" height="90" rx="10"/>
+<text class="h" x="787" y="99" text-anchor="middle">A file you save</text>
+<text class="s" x="787" y="122" text-anchor="middle">Kelcite GLB, or</text>
+<text class="s" x="787" y="141" text-anchor="middle">STL, 3MF, OBJ, FBX</text>
+<path class="e" d="M628 104H690" marker-end="url(#a)"/>
+
+<text class="s" x="20" y="500">Every request fetches something; none carries a document. A document leaves only as a file you save.</text>
+</svg>
