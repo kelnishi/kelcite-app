@@ -50,11 +50,9 @@ Wiki: [Construction and Rigging](Tool-Construction-and-Rigging#jig)
 ### About
 
 - The version under About's title is a blue link with a scroll icon. It opens what changed in the running release, on its page on the Kelcite wiki, in a new tab; a preview or development build opens the wiki's **Changelog** instead.
-  ![About on a desktop screen: the version as a blue link with a scroll icon, the branch and commit of a development build on the line below, then Check for updates and Looking for an old version?, and the Open Source Software, Open Asset Sources and Optional Downloads lists collapsed with their counts](images/changelog/0.17.406/about-desktop.png)
 - About's version shows the number alone; a preview or development build shows its branch and commit on a line below.
 - About no longer lists every release. **Check for updates** and **Looking for an old version?** sit under the version, and kelcite.app/changelog opens the release's page on the wiki.
 - About has a title bar with a close button, so it closes on a phone, where tapping outside it does not. On a screen narrower than 640 px it fills the screen instead of running off both sides.
-  ![About on a phone: a title bar with a close button, and the same version link, update button and collapsed lists filling the screen](images/changelog/0.17.406/about-phone.png)
 - About's **Open Source Software**, **Open Asset Sources** and **Optional Downloads** lists are collapsed, each showing how many entries it holds; click one to open it. **GitHub** and **Sponsor** describe where they go when you point at them, and the heart-hands corner, labeled **FAQ**, opens the FAQ.
 - Enter on a link or button in About opens it, instead of closing About.
 
