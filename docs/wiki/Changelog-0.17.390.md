@@ -11,6 +11,7 @@ Wiki: [Sculpt with Clay](Workflow-Sculpt-with-Clay)
 ### Sweep
 
 - A **Sweep** carries an SVG, text, closed Trace or closed Wire along a Wire as clay, so it bends with the Wire and stays editable until baked. Its card in the Info panel picks the **Section** and the **Path** and sets **Taper** and **Twist** over its length. The demo tour's **Clay sweep** stop shows one.
+  ![A clay Sweep of a star section along a bent Wire, bending with the Wire](images/changelog/0.17.390/clay-sweep.png)
 - A Sweep follows its section and its Wire as they change. Where the Wire bends tighter than the section is wide, it keeps its last shape, and its card says where the Wire folds.
 - A Sweep follows the Wire's own curve, so it shades smooth along a bend instead of showing a band at every ring. A sharp corner, where a pin's tangent weight is 0, stays an exact miter.
 - A Sweep that fills the screen no longer slows every frame: a still view draws it once, and while the camera moves or a pin or slider is dragged it draws at a quarter of the pixels, sharpening when you stop.
@@ -229,6 +230,7 @@ Wiki: [Rig and Pose a Character](Workflow-Rig-and-Pose-a-Character)
 ### Info panel
 
 - The Type menu and the Sides and Points fields of a clay body fit inside the panel instead of running past its right edge, down to a panel width of about 240 px.
+  ![A clay body's Info panel at a 240 px width, with the Type menu and the Star shape's Points and radius fields inside the panel](images/changelog/0.17.390/info-panel-240px.png)
 
 ## Files and the tour
 
@@ -239,6 +241,7 @@ Wiki: [Getting Started](Workflow-Getting-Started#the-demo-tour)
 - A link to the tour (kelcite.app/glhf/kelcite-demo.glb) opens it on any browser, including one that has never opened it, with no "was not found" error and no stop in the file browser.
 - The tour is no longer a file in the file browser. It starts over each time it opens, and the app keeps a copy on your device for offline use, replaced when the app updates.
 - The first edit to the tour says that its changes are not kept and offers **Save a copy**. The copy opens as a file of your own, named kelcite-demo-copy, then kelcite-demo-copy#1 and so on. The tour's name at the top of the window saves a copy too.
+  ![The dialog shown on the first edit to the tour: its changes are not kept, with Keep editing and Save a copy buttons](images/changelog/0.17.390/tour-save-a-copy.png)
 - A tour file kept from an earlier version is removed if it was never edited. One you edited or renamed stays, under an address of its own, without its undo history.
 - The file browser's Demo button is gone; **Open the tour**, at the bottom right, opens the tour.
 - Playing the tour turns **Labels** on if they are off, so its flags show. They stay on when the tour ends.
