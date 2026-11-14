@@ -1,4 +1,4 @@
-# Changelog Feature Release 0.13.10
+# Changelog Bug Fix 0.13.10
 
 Released 2026-10-22.
 

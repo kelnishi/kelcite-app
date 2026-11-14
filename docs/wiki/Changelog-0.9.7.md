@@ -1,4 +1,4 @@
-# Changelog Feature Release 0.9.7
+# Changelog Bug Fix 0.9.7
 
 Released 2026-10-14.
 

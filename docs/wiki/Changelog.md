@@ -33,7 +33,7 @@
 
 | Release | Type | Date | Highlights |
 |---|---|---|---|
-| [0.15.36](Changelog-0.15.36) | Feature | 2026-10-28 | Consistent shading, Pin loop fixes |
+| [0.15.36](Changelog-0.15.36) | Bug fix | 2026-10-28 | Consistent shading, Pin loop fixes |
 | [0.15.28](Changelog-0.15.28) | Feature | 2026-10-28 | Faster Extrude, wall groups |
 | [0.15.25](Changelog-0.15.25) | Feature | 2026-10-27 | Face group extrude, modifier search |
 | [0.15.24](Changelog-0.15.24) | Feature | 2026-10-27 | Remembered tool options, Data tab, Bake triangle target |
@@ -55,10 +55,10 @@
 
 | Release | Type | Date | Highlights |
 |---|---|---|---|
-| [0.13.12](Changelog-0.13.12) | Feature | 2026-10-22 | Paste fixes |
-| [0.13.11](Changelog-0.13.11) | Feature | 2026-10-22 | Decal-only clay bakes |
-| [0.13.10](Changelog-0.13.10) | Feature | 2026-10-22 | Texture map and Round size fix |
-| [0.13.9](Changelog-0.13.9) | Feature | 2026-10-21 | Hair wall behind images |
+| [0.13.12](Changelog-0.13.12) | Bug fix | 2026-10-22 | Paste fixes |
+| [0.13.11](Changelog-0.13.11) | Bug fix | 2026-10-22 | Decal-only clay bakes |
+| [0.13.10](Changelog-0.13.10) | Bug fix | 2026-10-22 | Texture map and Round size fix |
+| [0.13.9](Changelog-0.13.9) | Bug fix | 2026-10-21 | Hair wall behind images |
 | [0.13.8](Changelog-0.13.8) | Feature | 2026-10-20 | Masks, BitCanvas, clay decals, Airbrush |
 
 </details>
@@ -68,28 +68,28 @@
 
 | Release | Type | Date | Highlights |
 |---|---|---|---|
-| [0.12.28](Changelog-0.12.28) | Feature | 2026-10-19 | Displacement transparency |
+| [0.12.28](Changelog-0.12.28) | Bug fix | 2026-10-19 | Displacement transparency |
 | [0.12.27](Changelog-0.12.27) | Feature | 2026-10-19 | Clay displacement, reorderable modifiers |
 | [0.12.26](Changelog-0.12.26) | Feature | 2026-10-19 | Tool and command search |
-| [0.12.25](Changelog-0.12.25) | Feature | 2026-10-19 | Refine with vision on WebGPU |
+| [0.12.25](Changelog-0.12.25) | Bug fix | 2026-10-19 | Refine with vision on WebGPU |
 | [0.12.24](Changelog-0.12.24) | Feature | 2026-10-19 | Refine with vision for auto-rigging |
-| [0.12.19](Changelog-0.12.19) | Feature | 2026-10-19 | Auto-rig limb fixes |
-| [0.12.18](Changelog-0.12.18) | Feature | 2026-10-18 | Daz Studio flatten, export errors |
+| [0.12.19](Changelog-0.12.19) | Bug fix | 2026-10-19 | Auto-rig limb fixes |
+| [0.12.18](Changelog-0.12.18) | Bug fix | 2026-10-18 | Daz Studio flatten, export errors |
 | [0.12.17](Changelog-0.12.17) | Feature | 2026-10-18 | More rigged models |
-| [0.12.15](Changelog-0.12.15) | Feature | 2026-10-18 | Rigged glTF root fix |
+| [0.12.15](Changelog-0.12.15) | Bug fix | 2026-10-18 | Rigged glTF root fix |
 | [0.12.14](Changelog-0.12.14) | Feature | 2026-10-18 | Rig tool in three stages |
 | [0.12.13](Changelog-0.12.13) | Feature | 2026-10-18 | More free model sources |
 | [0.12.11](Changelog-0.12.11) | Feature | 2026-10-18 | New app icon |
-| [0.12.10](Changelog-0.12.10) | Feature | 2026-10-17 | Spanish and Chinese wording |
-| [0.12.9](Changelog-0.12.9) | Feature | 2026-10-17 | Daz Studio single-key fix |
-| [0.12.8](Changelog-0.12.8) | Feature | 2026-10-17 | Phone tour layout |
+| [0.12.10](Changelog-0.12.10) | Bug fix | 2026-10-17 | Spanish and Chinese wording |
+| [0.12.9](Changelog-0.12.9) | Bug fix | 2026-10-17 | Daz Studio single-key fix |
+| [0.12.8](Changelog-0.12.8) | Bug fix | 2026-10-17 | Phone tour layout |
 | [0.12.7](Changelog-0.12.7) | Feature | 2026-10-17 | Download licenses and terms |
 | [0.12.6](Changelog-0.12.6) | Feature | 2026-10-17 | Rig tool with auto-rigging |
-| [0.12.5](Changelog-0.12.5) | Feature | 2026-10-17 | Framing fix for large models |
-| [0.12.4](Changelog-0.12.4) | Feature | 2026-10-16 | STEP download prompt |
-| [0.12.3](Changelog-0.12.3) | Feature | 2026-10-16 | Faster startup |
-| [0.12.2](Changelog-0.12.2) | Feature | 2026-10-16 | Refine keeps colors and materials |
-| [0.12.1](Changelog-0.12.1) | Feature | 2026-10-16 | Dual contouring hole fix |
+| [0.12.5](Changelog-0.12.5) | Bug fix | 2026-10-17 | Framing fix for large models |
+| [0.12.4](Changelog-0.12.4) | Bug fix | 2026-10-16 | STEP download prompt |
+| [0.12.3](Changelog-0.12.3) | Bug fix | 2026-10-16 | Faster startup |
+| [0.12.2](Changelog-0.12.2) | Bug fix | 2026-10-16 | Refine keeps colors and materials |
+| [0.12.1](Changelog-0.12.1) | Bug fix | 2026-10-16 | Dual contouring hole fix |
 | [0.12.0](Changelog-0.12.0) | Feature | 2026-10-16 | Optional downloads, humanoid poses, FBX export |
 
 </details>
@@ -99,8 +99,8 @@
 
 | Release | Type | Date | Highlights |
 |---|---|---|---|
-| [0.11.17](Changelog-0.11.17) | Feature | 2026-10-16 | Closer Scribe regions |
-| [0.11.16](Changelog-0.11.16) | Feature | 2026-10-16 | Animated rig saving fix, demo updates |
+| [0.11.17](Changelog-0.11.17) | Bug fix | 2026-10-16 | Closer Scribe regions |
+| [0.11.16](Changelog-0.11.16) | Bug fix | 2026-10-16 | Animated rig saving fix, demo updates |
 | [0.11.15](Changelog-0.11.15) | Feature | 2026-10-16 | Pose tool, rigged FBX and glTF, Timeline |
 
 </details>
@@ -112,7 +112,7 @@
 |---|---|---|---|
 | [0.10.25](Changelog-0.10.25) | Feature | 2026-10-15 | Skeletonize and the Lattice modifier |
 | [0.10.24](Changelog-0.10.24) | Feature | 2026-10-15 | Tour font size |
-| [0.10.23](Changelog-0.10.23) | Feature | 2026-10-15 | Toolbar tooltip fix |
+| [0.10.23](Changelog-0.10.23) | Bug fix | 2026-10-15 | Toolbar tooltip fix |
 | [0.10.22](Changelog-0.10.22) | Feature | 2026-10-15 | Demo tour, tool tooltips, Markdown notes |
 
 </details>
@@ -122,7 +122,7 @@
 
 | Release | Type | Date | Highlights |
 |---|---|---|---|
-| [0.9.7](Changelog-0.9.7) | Feature | 2026-10-14 | Faster clay and wire drawing |
+| [0.9.7](Changelog-0.9.7) | Bug fix | 2026-10-14 | Faster clay and wire drawing |
 | [0.9.6](Changelog-0.9.6) | Feature | 2026-10-14 | Offset hair walls, strand counts |
 | [0.9.5](Changelog-0.9.5) | Feature | 2026-10-14 | Skeleton regions, materials kept when baking |
 | [0.9.4](Changelog-0.9.4) | Feature | 2026-10-14 | Extrude with Inset, undo survives reload |
@@ -137,16 +137,16 @@
 
 | Release | Type | Date | Highlights |
 |---|---|---|---|
-| [0.8.13](Changelog-0.8.13) | Feature | 2026-04-25 | Asset Library connector fixes |
+| [0.8.13](Changelog-0.8.13) | Bug fix | 2026-04-25 | Asset Library connector fixes |
 | [0.8.12](Changelog-0.8.12) | Feature | 2026-04-17 | GitHub models in the Asset Library |
 | [0.8.11](Changelog-0.8.11) | Feature | 2026-04-13 | SpaceMouse and game controllers |
-| [0.8.10](Changelog-0.8.10) | Feature | 2026-04-10 | Faster SVGs and text |
+| [0.8.10](Changelog-0.8.10) | Bug fix | 2026-04-10 | Faster SVGs and text |
 | [0.8.9](Changelog-0.8.9) | Feature | 2026-04-10 | Faster SVGs and text |
 | [0.8.8](Changelog-0.8.8) | Feature | 2026-04-10 | Asset Library |
 | [0.8.7](Changelog-0.8.7) | Feature | 2026-04-08 | Displacement edge blending |
 | [0.8.6](Changelog-0.8.6) | Feature | 2026-04-08 | SVG glyph outlines, decal wrap modes |
 | [0.8.5](Changelog-0.8.5) | Feature | 2026-04-07 | Font panel |
-| [0.8.4](Changelog-0.8.4) | Feature | 2026-04-07 | SVG and text baking fixes |
+| [0.8.4](Changelog-0.8.4) | Bug fix | 2026-04-07 | SVG and text baking fixes |
 | [0.8.3](Changelog-0.8.3) | Feature | 2026-04-07 | Image texture maps |
 | [0.8.2](Changelog-0.8.2) | Feature | 2026-04-06 | SVG decal Refinement and Sampling |
 | [0.8.1](Changelog-0.8.1) | Feature | 2026-04-03 | SVG nodes, Text tool, SVG decals, 3MF colors |
@@ -170,8 +170,8 @@
 
 | Release | Type | Date | Highlights |
 |---|---|---|---|
-| [0.6.3](Changelog-0.6.3) | Feature | 2026-03-19 | Move edits the object directly |
-| [0.6.2](Changelog-0.6.2) | Feature | 2026-03-17 | Faster constraint solving |
+| [0.6.3](Changelog-0.6.3) | Bug fix | 2026-03-19 | Move edits the object directly |
+| [0.6.2](Changelog-0.6.2) | Bug fix | 2026-03-17 | Faster constraint solving |
 | [0.6.1](Changelog-0.6.1) | Feature | 2026-03-17 | Constraint solver, Jig tool |
 
 </details>

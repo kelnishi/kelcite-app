@@ -1,4 +1,4 @@
-# Changelog Feature Release 0.12.25
+# Changelog Bug Fix 0.12.25
 
 Released 2026-10-19.
 

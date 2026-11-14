@@ -1,4 +1,4 @@
-# Changelog Feature Release 0.11.17
+# Changelog Bug Fix 0.11.17
 
 Released 2026-10-16.
 

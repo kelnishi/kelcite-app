@@ -1,4 +1,4 @@
-# Changelog Feature Release 0.8.13
+# Changelog Bug Fix 0.8.13
 
 Released 2026-04-25.
 

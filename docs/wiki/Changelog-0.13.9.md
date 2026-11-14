@@ -1,4 +1,4 @@
-# Changelog Feature Release 0.13.9
+# Changelog Bug Fix 0.13.9
 
 Released 2026-10-21.
 
