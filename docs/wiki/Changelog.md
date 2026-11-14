@@ -1,5 +1,7 @@
 # Changelog
 
+![Now with screenshots! A camera in a flash burst](images/changelog-stinger.svg)
+
 <details open>
 <summary><b>0.17</b> · 10 releases · 2026-11-04 to 2026-11-14</summary>
 
