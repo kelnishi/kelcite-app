@@ -2,6 +2,7 @@
 
 | Release | Date | Highlights |
 |---|---|---|
+| [0.17.406](Changelog-0.17.406) | 2026-11-14 | Clay Loft, even Ruled Lofts, Bake with Destination, reworked About |
 | [0.17.390](Changelog-0.17.390) | 2026-11-13 | Loft spines and guide rails, clay Sweep, Split's Loft join, named face groups on baked clay, the tour's Save a copy |
 | [0.17.344](Changelog-0.17.344) | 2026-11-12 | Clay Profile, Loft, Extrude draft and paths, Trace splits |
 | [0.17.98.6](Changelog-0.17.98.6) | 2026-11-10 | Pop-out and background work fixes |
