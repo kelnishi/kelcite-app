@@ -9,6 +9,7 @@ Released 2026-10-26.
 Wiki: [Sculpt with Clay](Workflow-Sculpt-with-Clay)
 
 - Meshes can become clay: Convert to Clay, in a mesh's menu in the Objects panel, makes clay you can round, offset, cut, join and blend with other clay, previewed live and baked back to a mesh. Exact edges, in the Info panel, keeps a mesh's sharp edges sharp
+  ![A faceted prism mesh beside the same prism converted to clay with rounded edges and an embossed top.](images/changelog/0.14.88/mesh-converted-to-clay.png)
 - Clay saved in earlier versions can change shape: a scaled tool's Round and Threshold now act at the tool's own size, cuts no longer flatten the body at the cutter's box, and a cylinder with Tension, tapered clay and negative Tension are no longer cut off. Check such clay before baking it again
 
 ## Modifiers

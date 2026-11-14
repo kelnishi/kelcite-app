@@ -71,6 +71,7 @@ Wiki: [Surface and Refine](Tool-Surface-and-Refine)
 - Tools reopen in the mode you left them in, such as Move's translate, rotate or scale, unless you turn off Remember tool mode in Preferences → Data
 - An option in Preferences → Data opens every tool on factory settings instead of your last choices
 - Preferences has a Data tab: export and import your keybindings, tool settings and preferences as one file, reset any tool's settings, see storage use, and Reset everything
+  ![The Preferences panel on its Data tab, with Transfer, tool settings and Defaults rows.](images/changelog/0.15.24/preferences-data-tab.png)
 - A settings file from a newer Kelcite imports what this version reads and names the rest; keybinding import now handles renamed commands
 - Split, Move, Pin, Scribe, Crack, Trace and Bake open on the options last chosen; new traces and each kind of Bake operation start from the last ones set
 - Clay, Text, Refine, Repair and Paint keep their options between visits: Text opens with the style last used, and Repair no longer switches back to its default strategy

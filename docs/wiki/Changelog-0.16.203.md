@@ -17,6 +17,7 @@ Wiki: [Modifiers](Tool-Modifiers)
 ### Skeletonize
 
 - Five minimal-surface patterns sit under Minimal surfaces in the Pattern list: Gyroid, Schwarz P, Schwarz D, Neovius and Schoen I-WP. Each is a smooth surface repeating in a cube of Cell size, cut by the body.
+  ![A cylinder filled with a gyroid minimal-surface lattice made by Skeletonize.](images/changelog/0.16.203/skeletonize-gyroid.png)
 - Form sets a minimal surface as a Sheet or a Network. A Sheet is a wall of constant thickness that splits each cell into two channels open to the outside, and a Network is rods along one of the two channels. The Radius is half a sheet's wall, and the rods' radius at their thinnest.
 - Shell and Shell + volume lay a Skin on a minimal surface, a wall twice the radius thick along the body's surface, sunk inside the body or centered on it, which closes the lattice off. A pin sets the minimal surface's origin and axes and, with Scale with pin, its cell size, as it does for unit cells.
 - A minimal surface on Clay draws in the viewport straight from its field, as strut lattices on Clay do, so a Radius, Form or Cell size edit shows at once. The mesh that Bake, export and a mesh body's preview build matches it: all but a hundredth of its vertices lie within 0.01 mm of the viewport's surface.
@@ -55,6 +56,7 @@ Wiki: [Construction and Rigging](Tool-Construction-and-Rigging#move)
 - Square up snaps each selected body's rotation to the nearest quarter turn about each world axis.
 - Lay flat turns a face you click onto the ground, or onto another face or plane, and lands it there. On a mesh the face is its face group, or the faces around the click that lie flat together; on clay it is the tangent plane at the click. Best face steps through the faces a mesh can rest on, largest first, and if part of the body would end below the ground, an alert says the face isn't on its outside.
 - With two or more bodies selected, the Arrange section aligns, distributes and stacks them. Align has Min, Center and Max for each of X, Y and Z, and each button acts at once: every body but the key moves along that axis until its edge meets the key's.
+  ![The Move tool panel's Arrange section with Align, Distribute and Stack controls.](images/changelog/0.16.203/move-arrange.png)
 - The key is the primary selection unless the Key picker changes it. A Meets menu per row sets a body's min against the key's max, which sets parts side by side, and Relative to takes the selection's bounds or a point or plane you pick instead of the key.
 - Distribute spaces the bodies along an axis while the two ends stay, by equal spacing of their centers, equal gaps between them, or a fixed gap measured from the first. Order follows their position or the order you selected them.
 - Stack sets each body on the one before it along a direction (Y up by default), by its bounds or, for round clay, by its surface. Gap leaves room between bodies, and Center on lines each up on the one below or on the key.

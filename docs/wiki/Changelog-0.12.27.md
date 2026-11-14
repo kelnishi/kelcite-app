@@ -9,6 +9,7 @@ Released 2026-10-19.
 Wiki: [Sculpt with Clay](Workflow-Sculpt-with-Clay)
 
 - Texture maps displace clay: the surface rises by the image's brightness, live in the view and in Bake. Dropping an image onto clay adds it with a displacing texture map
+  ![A clay coin whose surface is raised by an image, showing an embossed Kelcite logo.](images/changelog/0.12.27/clay-displaced-by-image.png)
 
 ## Modifiers
 

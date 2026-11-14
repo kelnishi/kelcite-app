@@ -18,6 +18,7 @@ Wiki: [Modifiers](Tool-Modifiers)
 ### Masks
 
 - The Mask modifier clips an image to an SVG or another image laid over it, by alpha, a color channel or a chroma key. Everything that reads the image sees it masked, including texture maps, clay displacement and Bake
+  ![A sunset image clipped to the outline of a star by the Mask modifier.](images/changelog/0.13.8/mask-clips-image-to-star.png)
 
 ## Move
 
