@@ -8,7 +8,7 @@ Development happens in a private repository; this repository tracks the deployed
 
 Start with [Getting Started](Workflow-Getting-Started), then [Import and Export](Workflow-Import-and-Export) to bring in a model, and [Prepare for Printing](Workflow-Prepare-for-Printing) when it is ready to print.
 
-The app's own pages are on the web too. kelcite.app/faq opens the FAQ and kelcite.app/changelog opens About scrolled to the changelog. The FAQ, the changelog and each tool's tutorial are also plain web pages under kelcite.app/docs/, in English, each with a Markdown copy, so search engines and language models can read them without running the app; kelcite.app/llms.txt, sitemap.xml and robots.txt list them.
+The app's own pages are on the web too. [kelcite.app/faq](https://kelcite.app/faq) opens the FAQ in the app. The [FAQ](https://kelcite.app/docs/faq/), the [changelog](https://kelcite.app/docs/changelog/) and each tool's tutorial are also plain web pages under [kelcite.app/docs/](https://kelcite.app/docs/), in English, each with a Markdown copy, so search engines and language models can read them without running the app; [kelcite.app/llms.txt](https://kelcite.app/llms.txt), [sitemap.xml](https://kelcite.app/sitemap.xml) and [robots.txt](https://kelcite.app/robots.txt) list them.
 
 ## How-to workflows
 
