@@ -12,6 +12,7 @@ Wiki: [Sculpt with Clay](Workflow-Sculpt-with-Clay)
 - Polygon gains a Twist in the Inspector, which turns the section about the shape's up axis over its height.
 - Polygon is now one of Profile's three shapes, Polygon, Star and Outline, in the Clay panel and in the Inspector. Choosing Profile starts on a five-sided Polygon; Outline extrudes an SVG, text, closed Trace or closed Wire as before. Clay bodies saved as polygons or stars open as Profile's Polygon or Star, unchanged.
 - Every Profile shape has the same Taper, Twist and Corner radius, below its own settings. Taper is a Draft angle or an End scale on all three; a Polygon's or Star's Draft leans its walls by that angle at any size and keeps it when the body is resized, and its End scale now reaches 2 for a wider top.
+  ![The Info panel's Profile section with Polygon, Star and Outline buttons and the Taper, Twist and Corner radius controls.](images/changelog/0.17.344/clay-profile-card-taper-twist-corner-radius.png)
 - A Star sets its Inner radius, and in the Inspector a Polygon or Star sets its Radius and Height directly.
 - An Outline read from an SVG or text with several paths lists them with checkboxes. Check one path, several, or all; several join as one outline, a hole stays a hole while the path around it is checked, and hovering a row lights that path in the scene.
 - An SVG path's holes now cut through an Outline as they show in the SVG. Outlines made earlier from SVGs or text whose paths have holes (an "O", an "e", a ring) change when their document opens: the holes they had filled are open.
@@ -53,6 +54,7 @@ Wiki: [Loft Between Shapes](Workflow-Loft-Between-Shapes)
 - The Info panel's Loft on a Materials row now traces that material's face group; before, a row whose material number differed from its group's took another group's outline.
 - Add match is a "+ Add match" pill like "+ Add Section", each match's sections are named separately, and a Loft whose matches cross says that no body builds instead of "Building the body…".
 - The card of a Loft on a Trace has Combine into, named for the mesh the Trace is on. It joins the body to that mesh as a Union (a boss or a handle) or a Difference (a pocket or a tunnel), and Bake on apply bakes the result as Combine does.
+  ![An orange round-topped boss rising from a square plate as one solid.](images/changelog/0.17.344/loft-combined-boss-on-plate.png)
 - Where the Trace is on the mesh, the join replaces the mesh's faces inside the Trace with the body and shares the Trace's vertices, so the result is one closed solid with no gap or doubled wall at the Trace. Every other triangle of the mesh keeps its place, group and material. On a mesh of a million triangles the join evaluates about four times faster than the same cut through the Boolean.
 - A Trace that lies on the mesh's surface but not on its vertices, such as a smoothed or projected one, now closes its end on the mesh's faces cut along the Trace instead of capping flat, and joins the same way. Project onto surface is needed only for a Trace that is off the surface.
 - A body that cannot use the Trace joins through the ordinary Boolean, and the card says why: a Loft baked to a mesh, a body that meets the mesh somewhere besides its Trace, a body on the other side of the surface from the operation, or a modifier ahead of the Boolean. After an edit to the mesh, the join waits for the body to rebuild on the edited mesh and then welds again.
@@ -94,6 +96,7 @@ Wiki: [Modifiers](Tool-Modifiers)
 
 - The Path picker has one ✕, which removes the path.
 - A new Shape section leans the walls. Draft sets an angle from the direction of travel, up to 60° either way: a positive angle narrows a raise as it rises and a cut as it goes in, and a negative one widens it. End scale sizes the top as a share of the base instead. The section starts closed and says what it holds ("Draft 10°", "End scale 0.5").
+  ![The Extrude card's Shape section with Taper Draft and End scale buttons and a Draft slider at 10 degrees.](images/changelog/0.17.344/extrude-shape-draft-card.png)
 - When a draft would fold the top over, or the surface curves away, a line under Depth says how far the Depth is held. A large draft on a small face stops short of the fold instead of turning the top inside out.
 - Dragging Draft or End scale moves the walls as you drag, as Depth does, on a mesh of a million triangles.
 - Bake keeps the leaning walls and writes the triangles the viewport draws.

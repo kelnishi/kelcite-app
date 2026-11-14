@@ -11,6 +11,8 @@ Wiki: [Sculpt with Clay](Workflow-Sculpt-with-Clay)
 ### Clay Loft
 
 - A clay **Loft** joins two or more sections (SVG, text, closed Traces and closed Wires) along the same walls as a mesh Loft of those sections, at each section and between them, and redraws as its sections, **Blend**, **Twist**, **Start** and matching pins change. Its Loft card lists the sections and says when the clay can't follow them: a Pin section, a section that folds back over its take-off, or walls that pass through each other.
+  ![A clay vase whose walls rise from a star at the base to a square at the top, twisting as they rise, standing on a plinth.](images/changelog/0.17.406/clay-loft-vase.png)
+  ![The Info panel Loft card of a clay body listing its two sections, Vase base and Vase rim, with Blend Ruled/Smooth and the note that twist is set by the matching pins.](images/changelog/0.17.406/clay-loft-card.png)
 - A clay Loft follows its guide rails between sections, along the same walls as the mesh Loft. Along a spine, its card says that clay can't follow guide rails yet.
 - Where a clay Loft's spine curves, or a Smooth turn has a Strength of 0, its card says how far the clay strays from the mesh Loft of the same sections.
 
@@ -31,6 +33,7 @@ Wiki: [Loft Between Shapes](Workflow-Loft-Between-Shapes)
 Wiki: [Bake an SDF to a Mesh](Workflow-Bake-an-SDF-to-a-Mesh)
 
 - A Loft between the two pieces of a split, baked with **Destination**, joins the destination piece along its Trace, with no cut face left inside; **Source** with **Destination** joins both pieces and the Loft into one closed body.
+  ![The Bake panel's Loft chip with Combine with source body and Combine with destination body both checked.](images/changelog/0.17.406/bake-loft-destination-options.png)
 - A Loft whose walls pass into a body beside its Trace is baked as a mesh of its own, with an alert saying why, instead of being joined with its end cap left inside the body.
 
 ## Pin and Wire

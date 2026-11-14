@@ -217,6 +217,7 @@ Wiki: [Rig and Pose a Character](Workflow-Rig-and-Pose-a-Character)
 ### Loft rows
 
 - A Loft's body has a row of its own under its Trace, SVG or Wire, in italics beside a dashed icon, numbered when the node has more than one Loft. The node gains a disclosure arrow that collapses these rows. The row cannot be dragged, renamed or moved, and its menu offers **Bake to a mesh** and **Add a guiderail wire**.
+  ![The Objects list with an italic Loft row, marked with a dashed icon, under the Swept word text node.](images/changelog/0.17.390/loft-body-row-in-objects.png)
 - The eye and X-Ray buttons on a Loft's row show, hide and X-Ray the body on their own, and each click can be undone. Hiding the Trace, SVG or Wire, or **Toggle all construction visibility**, leaves the body in view; a body hidden from its row is not exported, as a hidden object is not. Lofts in scenes saved earlier show their bodies, solid.
 - Clicking a Loft's row selects its Trace, SVG or Wire, as clicking the body in the view does, and hovering the row outlines the body in the view.
 
