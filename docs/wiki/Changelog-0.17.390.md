@@ -2,7 +2,7 @@
 
 Released 2026-11-13.
 
-A Loft can now follow a Wire (a **spine**) and be held to **guide rails**, so a handle can bend, twist and swell between its ends. Clay gains a **Sweep** that carries a section along a Wire, and Split can join its two cut faces with a Loft. Baked clay keeps the names of its face groups, and Move, Jig and the tour change in smaller ways, listed by system below.
+A Loft can now follow a Wire (a **spine**) and be held to **guide rails**, so a handle can bend, twist and swell between its ends. Clay gains a **Sweep** that carries a section along a Wire, and Split can join its two cut faces with a Loft. Baked clay keeps the names of its face groups, rigs move as one body, Jig's Anchor Orient works, and the tour no longer lives in the file browser.
 
 ## Clay
 
