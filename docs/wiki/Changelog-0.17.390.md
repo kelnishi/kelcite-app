@@ -35,7 +35,7 @@ Wiki: [Loft Between Shapes](Workflow-Loft-Between-Shapes)
 ### Spine
 
 - A Wire can be a Loft's **spine**. The sections sit along it where it passes closest to their centers, and the walls between them follow its bends. Pick the Wire in the Loft card's **Spine** row.
-  ![A Loft between two boxes following a curved Wire spine, with the Wire drawn through its pins](images/changelog/0.17.390/loft-spine.png)
+  ![A Loft between two boxes following a curved Wire spine, which runs through the body from one section to the other](images/changelog/0.17.390/loft-spine.png)
 - The spine's pins set its twist. Each pin's **North** fixes which way the outline faces at that pin, and between pins the outline turns evenly from one North to the next, so editing the Wire never flips the body or its ends. Turn a pin about its up to twist the Loft there; the card's **Twist** adds to that. **Upright**, in the Spine row, keeps the outline facing the way it does at the start instead.
 - **Add a guiderail wire**, in a Loft body's right-click menu and its row's menu in Objects, draws the spine for you: a Wire through a new pin at the center of each section, aimed the way the Loft leaves it and facing the way the section does, so the Loft keeps its pairing. Each pin becomes its section's take-off Pin.
 - **Link with Wire**, under the card's Spine picker while a Loft has no spine, draws a Wire through each section's take-off Pin, or the pin on its face (a Split cap's), adding a pin where a section has none, and makes it the spine.
