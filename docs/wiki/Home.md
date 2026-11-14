@@ -43,3 +43,7 @@ The app's FAQ opens at [kelcite.app/faq](https://kelcite.app/faq).
 How Kelcite is put together, at the level that explains its behavior. Start with [Overview](Architecture-Overview).
 
 [Scene Model](Architecture-Scene-Model) · [Geometry Engine](Architecture-Geometry-Engine) · [Tools and Modifiers](Architecture-Tools-and-Modifiers) · [Units and Files](Architecture-Units-and-Files) · [Rigging and Pose](Architecture-Rigging-and-Pose) · [Storage and Privacy](Architecture-Storage-and-Privacy) · [Rendering](Architecture-Rendering) · [Performance](Architecture-Performance)
+
+## Releases
+
+Each release has its own page, grouped by minor version in the [Changelog](Changelog).
