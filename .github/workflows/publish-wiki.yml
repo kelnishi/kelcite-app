@@ -1,0 +1,46 @@
+# Publishes docs/wiki on the `wiki` branch to this repository's wiki.
+#
+# GitHub Apps cannot push to a .wiki repository, so the wiki is written from a
+# directory of the repository itself and this workflow copies it over with the
+# workflow's own GITHUB_TOKEN. The copy is a mirror: a page deleted from
+# docs/wiki is deleted from the wiki.
+name: Publish wiki
+
+on:
+  push:
+    branches: [wiki]
+    paths:
+      - docs/wiki/**
+      - .github/workflows/publish-wiki.yml
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-wiki
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Mirror docs/wiki into the wiki repository
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+          git clone "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" wiki
+          rsync -a --delete --exclude .git docs/wiki/ wiki/
+          cd wiki
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "The wiki already matches docs/wiki."
+            exit 0
+          fi
+          git commit -m "docs(wiki): publish ${GITHUB_SHA::7} from the wiki branch"
+          git push origin HEAD
