@@ -34,6 +34,7 @@ Wiki: [Loft Between Shapes](Workflow-Loft-Between-Shapes)
 ### Spine
 
 - A Wire can be a Loft's **spine**. The sections sit along it where it passes closest to their centers, and the walls between them follow its bends. Pick the Wire in the Loft card's **Spine** row.
+  ![A Loft between two boxes following a curved Wire spine, with the Wire drawn through its pins](images/changelog/0.17.390/loft-spine.png)
 - The spine's pins set its twist. Each pin's **North** fixes which way the outline faces at that pin, and between pins the outline turns evenly from one North to the next, so editing the Wire never flips the body or its ends. Turn a pin about its up to twist the Loft there; the card's **Twist** adds to that. **Upright**, in the Spine row, keeps the outline facing the way it does at the start instead.
 - **Add a guiderail wire**, in a Loft body's right-click menu and its row's menu in Objects, draws the spine for you: a Wire through a new pin at the center of each section, aimed the way the Loft leaves it and facing the way the section does, so the Loft keeps its pairing. Each pin becomes its section's take-off Pin.
 - **Link with Wire**, under the card's Spine picker while a Loft has no spine, draws a Wire through each section's take-off Pin, or the pin on its face (a Split cap's), adding a pin where a section has none, and makes it the spine.
@@ -48,7 +49,9 @@ Wiki: [Loft Between Shapes](Workflow-Loft-Between-Shapes)
 ### Guide rails
 
 - Once a Loft has a spine, each further **Add a guiderail wire** draws a guide rail: a Wire through a new pin on an outline vertex of each section, and the outline follows it between the sections. Move or aim the rail's pins and the walls turn and swell to keep that vertex on the rail; with several rails, each one's vertex stays on its own. From a Loft body's right-click menu the rail starts at the outline vertex nearest where you clicked; from the card or Objects it starts across the widest gap between the rails already there.
+  ![A Loft along a spine with a guide rail Wire drawn along one outline vertex](images/changelog/0.17.390/loft-guide-rail.png)
 - The card lists the guide rails under the Spine row. Hovering a rail lights its Wire, the **×** removes it from the Loft (the Wire stays in the scene), and **Add rail** draws another. A rail the Loft cannot follow says why on its row, such as a rail that runs back along the Loft, two rails that cross, or pins in another order than the sections, and the Loft builds without it.
+  ![The Loft card's Spine row with Follow and Upright, and the Guide rails list showing Rail 1 with its remove button and Add rail](images/changelog/0.17.390/loft-card-guide-rails.png)
 - A guide rail's pin can go anywhere. At each section the rail follows from the outline point nearest its pin, so dragging a pin round the outline moves where the rail starts; it changes points only once the pin is clearly nearer the new one.
 
 ### Ends and take-off
@@ -96,6 +99,7 @@ Wiki: [Bake an SDF to a Mesh](Workflow-Bake-an-SDF-to-a-Mesh)
 ### Face group names
 
 - A baked clay keeps the names of its face groups (Top cap, Side 1, Side 2 and so on, Bottom cap). Paint, Trace, the Inspector's Materials, the face group menu and the modifier cards show the names instead of numbers. The names show in the language Kelcite runs in, and a saved file keeps them.
+  ![Paint's face group palette on a baked clay body, with the selected group named Side 2 instead of a number](images/changelog/0.17.390/paint-face-group-names.png)
 
 ### What bakes
 
@@ -112,6 +116,7 @@ Wiki: [Split and Cut a Model](Workflow-Split-and-Cut-a-Model)
 ### Loft split bodies
 
 - Each selected cut in the Split panel has a **Loft split bodies** checkbox. Checked, the split puts a Trace on each of the two faces the cut leaves and joins them with a Loft, on the lower piece, whose sections take off from the pins Split places on those faces. The Loft leaves one face straight out and arrives straight into the other; it has no length until the pieces are moved apart. A cut whose face has a hole is not lofted, and an alert says so.
+  ![Split's cut list with a cut named Column and its Loft split bodies checkbox checked](images/changelog/0.17.390/split-loft-split-bodies.png)
 - Split names each cut's two cap Traces after their pieces, "Trace_A" on the piece above the plane and "Trace_B" on the piece below, instead of "Trace" for both.
 
 ### Names and display
