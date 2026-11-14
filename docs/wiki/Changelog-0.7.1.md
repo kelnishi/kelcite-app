@@ -1,4 +1,4 @@
-# Changelog 0.7.1
+# Changelog Feature Release 0.7.1
 
 Released 2026-03-26.
 

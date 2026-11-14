@@ -1,4 +1,4 @@
-# Changelog 0.10.23
+# Changelog Feature Release 0.10.23
 
 Released 2026-10-15.
 

@@ -1,4 +1,4 @@
-# Changelog 0.11.15
+# Changelog Feature Release 0.11.15
 
 Released 2026-10-16.
 

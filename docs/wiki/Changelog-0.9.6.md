@@ -1,4 +1,4 @@
-# Changelog 0.9.6
+# Changelog Feature Release 0.9.6
 
 Released 2026-10-14.
 

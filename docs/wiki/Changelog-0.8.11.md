@@ -1,4 +1,4 @@
-# Changelog 0.8.11
+# Changelog Feature Release 0.8.11
 
 Released 2026-04-13.
 

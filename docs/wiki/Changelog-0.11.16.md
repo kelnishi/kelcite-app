@@ -1,4 +1,4 @@
-# Changelog 0.11.16
+# Changelog Feature Release 0.11.16
 
 Released 2026-10-16.
 

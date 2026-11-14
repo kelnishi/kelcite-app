@@ -1,4 +1,4 @@
-# Changelog 0.17.98.1
+# Changelog Hotfix 0.17.98.1
 
 Released 2026-11-06.
 

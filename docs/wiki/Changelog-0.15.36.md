@@ -1,4 +1,4 @@
-# Changelog 0.15.36
+# Changelog Feature Release 0.15.36
 
 Released 2026-10-28.
 

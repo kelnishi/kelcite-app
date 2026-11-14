@@ -1,4 +1,4 @@
-# Changelog 0.15.24
+# Changelog Feature Release 0.15.24
 
 Released 2026-10-27.
 

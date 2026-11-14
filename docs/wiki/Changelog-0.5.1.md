@@ -1,4 +1,4 @@
-# Changelog 0.5.1
+# Changelog Feature Release 0.5.1
 
 Released 2026-03-10.
 

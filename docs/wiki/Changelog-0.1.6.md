@@ -1,4 +1,4 @@
-# Changelog 0.1.6
+# Changelog Feature Release 0.1.6
 
 Released 2026-02-23.
 

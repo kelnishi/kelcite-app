@@ -1,4 +1,4 @@
-# Changelog 0.4.0
+# Changelog Feature Release 0.4.0
 
 Released 2026-03-07.
 

@@ -1,4 +1,4 @@
-# Changelog 0.8.5
+# Changelog Feature Release 0.8.5
 
 Released 2026-04-07.
 

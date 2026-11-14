@@ -1,4 +1,4 @@
-# Changelog 0.2.2
+# Changelog Feature Release 0.2.2
 
 Released 2026-02-27.
 

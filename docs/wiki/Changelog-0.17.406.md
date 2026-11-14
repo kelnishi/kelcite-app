@@ -1,4 +1,4 @@
-# Changelog 0.17.406
+# Changelog Feature Release 0.17.406
 
 Released 2026-11-14.
 

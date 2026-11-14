@@ -1,4 +1,4 @@
-# Changelog 0.8.6
+# Changelog Feature Release 0.8.6
 
 Released 2026-04-08.
 
