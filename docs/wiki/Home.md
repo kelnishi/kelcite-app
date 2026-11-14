@@ -2,13 +2,13 @@
 
 Welcome to the [Kelcite](https://kelcite.app) wiki. Kelcite is a 3D modeling app for Makers, focused on 3D printing, that runs entirely in the browser.
 
-Development happens in a private repository; this repository tracks the deployed app, feature requests and bug reports. Report a bug or request a feature in the [issue tracker](https://github.com/kelnishi/kelcite-app/issues), and see the [release notes](https://kelcite.app/docs/changelog/) for what changed in each version. You can support the project through [sponsorship](https://github.com/sponsors/kelnishi).
+Development happens in a private repository; this repository tracks the deployed app, feature requests and bug reports. Report a bug or request a feature in the [issue tracker](https://github.com/kelnishi/kelcite-app/issues), and see the [release notes](https://kelcite.app/changelog) for what changed in each version. You can support the project through [sponsorship](https://github.com/sponsors/kelnishi).
 
 ## New here
 
 Start with [Getting Started](Workflow-Getting-Started), then [Import and Export](Workflow-Import-and-Export) to bring in a model, and [Prepare for Printing](Workflow-Prepare-for-Printing) when it is ready to print.
 
-The app's own pages are on the web too. [kelcite.app/faq](https://kelcite.app/faq) opens the FAQ in the app. The [FAQ](https://kelcite.app/docs/faq/), the [changelog](https://kelcite.app/docs/changelog/) and each tool's tutorial are also plain web pages under [kelcite.app/docs/](https://kelcite.app/docs/), in English, each with a Markdown copy, so search engines and language models can read them without running the app; [kelcite.app/llms.txt](https://kelcite.app/llms.txt), [sitemap.xml](https://kelcite.app/sitemap.xml) and [robots.txt](https://kelcite.app/robots.txt) list them.
+The app's FAQ opens at [kelcite.app/faq](https://kelcite.app/faq).
 
 ## How-to workflows
 
