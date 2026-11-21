@@ -3,10 +3,11 @@
 # Changelog
 
 <details open>
-<summary><b>0.17</b> · 11 releases · 2026-11-04 to 2026-11-15</summary>
+<summary><b>0.17</b> · 12 releases · 2026-11-04 to 2026-11-21</summary>
 
 | Release | Type | Date | Highlights |
 |---|---|---|---|
+| [0.17.506](Changelog-0.17.506) | Feature | 2026-11-21 | Clone and Convert to clone, BCC Tetrahedra, Refine's Regularize and Remesh, Add Loft from SVG and text; Clay Loft held back |
 | [0.17.413](Changelog-0.17.413) | Feature | 2026-11-15 | Documentation at kelcite.app/docs, linked from About |
 | [0.17.406](Changelog-0.17.406) | Feature | 2026-11-14 | Clay Loft, even Ruled Lofts, Bake with Destination, reworked About |
 | [0.17.390](Changelog-0.17.390) | Feature | 2026-11-13 | Loft spines and guide rails, clay Sweep, Split's Loft join, named face groups on baked clay, the tour's Save a copy |

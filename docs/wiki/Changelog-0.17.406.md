@@ -10,6 +10,8 @@ Wiki: [Sculpt with Clay](Workflow-Sculpt-with-Clay)
 
 ### Clay Loft
 
+Held out of release builds from 0.17.506; see [Changelog 0.17.506](Changelog-0.17.506).
+
 - A clay **Loft** joins two or more sections (SVG, text, closed Traces and closed Wires) along the same walls as a mesh Loft of those sections, at each section and between them, and redraws as its sections, **Blend**, **Twist**, **Start** and matching pins change. Its Loft card lists the sections and says when the clay can't follow them: a Pin section, a section that folds back over its take-off, or walls that pass through each other.
   ![A clay vase whose walls rise from a star at the base to a square at the top, twisting as they rise, standing on a plinth.](images/changelog/0.17.406/clay-loft-vase.png)
   ![The Info panel Loft card of a clay body listing its two sections, Vase base and Vase rim, with Blend Ruled/Smooth and the note that twist is set by the matching pins.](images/changelog/0.17.406/clay-loft-card.png)
